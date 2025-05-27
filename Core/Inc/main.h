@@ -46,7 +46,7 @@ extern "C" {
 
 /* Exported macro ------------------------------------------------------------*/
 /* USER CODE BEGIN EM */
-
+#define ARRAY_SIZE(x) (sizeof(x)/sizeof((x)[0]))
 /* USER CODE END EM */
 
 /* Exported functions prototypes ---------------------------------------------*/
